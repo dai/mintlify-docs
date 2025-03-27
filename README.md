@@ -1,32 +1,32 @@
-# Mintlify Starter Kit
+# Mintlify スターターキット
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+`Use this template`をクリックして、Mintlifyスターターキットをコピーしてください。このスターターキットには以下の例が含まれています：
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+- ガイドページ
+- ナビゲーション
+- カスタマイズ
+- APIリファレンスページ
+- 人気のあるコンポーネントの使用
 
-### Development
+### 開発
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+ドキュメントの変更をローカルでプレビューするには、[Mintlify CLI](https://www.npmjs.com/package/mintlify)をインストールしてください。インストールするには、次のコマンドを使用します：
 
 ```
 npm i -g mintlify
 ```
 
-Run the following command at the root of your documentation (where docs.json is)
+ドキュメントのルート（docs.jsonがある場所）で次のコマンドを実行します：
 
 ```
 mintlify dev
 ```
 
-### Publishing Changes
+### 変更の公開
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+リポジトリからデプロイメントへの変更を自動的に反映させるために、GitHubアプリをインストールしてください。デフォルトブランチにプッシュした後、変更は自動的に本番環境にデプロイされます。インストールするためのリンクはダッシュボードで見つけることができます。
 
-#### Troubleshooting
+#### トラブルシューティング
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+- Mintlify devが動作しない場合 - `mintlify install`を実行して依存関係を再インストールしてください。
+- ページが404として読み込まれる場合 - `docs.json`があるフォルダで実行していることを確認してください。
